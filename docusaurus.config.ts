@@ -4,21 +4,22 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "React Native Reanimated Progress Steps",
-  tagline: "Dinosaurs are cool",
+  tagline:
+    "Stepper components for showing progress steps of your order flow in your business flow.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://react-native-reanimated-progress-steps.vercel.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "ayonshafiul", // Usually your GitHub org/user name.
+  projectName: "react-native-reanimated-progress-steps", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -35,17 +36,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {},
       } satisfies Preset.Options,
@@ -84,7 +77,7 @@ const config: Config = {
           items: [
             {
               label: "Docs",
-              to: "/docs/intro",
+              to: "/docs/installation",
             },
           ],
         },

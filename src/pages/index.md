@@ -2,10 +2,14 @@
 title: React Native Reanimated Progress Steps
 ---
 
-# Get Started
+![Banner](../../static/img/banner.png)
 
-### Install from npm
+# React native reanimated progress steps
 
-```bash
-npm install react-native-reanimated-progress-steps
-```
+_Live progress tracking animated components for react native projects_
+
+<p>
+<img src="/img/demo.gif" width="250"/>
+</p>
+
+Read more in the [Documentation](/docs/installation)
