@@ -12,4 +12,4 @@ _Live progress tracking animated components for react native projects_
 <img src="/img/demo.gif" width="250"/>
 </p>
 
-Read more in the [Documentation](/docs/installation)
+Get started by [installing.](/docs/installation)
