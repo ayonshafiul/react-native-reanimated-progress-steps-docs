@@ -70,7 +70,7 @@ export default ProgressStepperExample;
 <img src="/img/progress_stepper_extended.gif" width="250"/>
 </p>
 
-### Rpround progress steps with `stepStyle` and `innerLabelStyle`
+### Round progress steps with `stepStyle` and `innerLabelStyle`
 
 In the default diamond shapes, the inner label styles are rotated to -45 deg to match the style. So to override, simply use `stepStyle` and `innerLabelStyle` together.
 
