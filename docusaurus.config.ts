@@ -51,7 +51,7 @@ const config: Config = {
     navbar: {
       title: "React Native Reanimated Progress Steps",
       logo: {
-        alt: "React Native Reanimated Progress Steps Logo",
+        alt: "Live progress tracking animated components for react native projects",
         src: "img/logo.png",
       },
       items: [
@@ -69,6 +69,17 @@ const config: Config = {
         },
       ],
     },
+    metadata: [
+      {
+        name: "keywords",
+        content:
+          "progress steps, progress stepper, react native stepper, multi step from, react native reanimated progress steps, custom progress",
+      },
+      {
+        name: "google-site-verification",
+        content: "oLCr8VPTgZN1qiVRA2tA_Vfj2MAnr9hR79DQpfdJ1_o",
+      },
+    ],
     footer: {
       style: "dark",
       links: [
