@@ -54,6 +54,80 @@ const ProgressStepperExample = () => {
 export default ProgressStepperExample;
 ```
 
+### Default Styles
+
+<p>
+<img src="/img/progress_stepper.gif" width="250"/>
+</p>
+
+### `extended` mode and `width` set to full screen
+
+```js
+<ProgressStepperProvider width={Dimensions.get('window').width} extended>
+```
+
+<p>
+<img src="/img/progress_stepper_extended.gif" width="250"/>
+</p>
+
+### Rpround progress steps with `stepStyle` and `innerLabelStyle`
+
+In the default diamond shapes, the inner label styles are rotated to -45 deg to match the style. So to override, simply use `stepStyle` and `innerLabelStyle` together.
+
+```js
+<ProgressStepperProvider
+        width={Dimensions.get('window').width}
+        extended
+        stepStyle={{
+          height: 30,
+          width: 30,
+          borderRadius: 15,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+        innerLabelStyle={{
+          color: 'white',
+          fontWeight: 'bold',
+        }}
+        trackActiveColor="green"
+        activeColor="green"
+      >
+
+```
+
+<p>
+<img src="/img/progress_stepper_round.gif" width="250"/>
+</p>
+
+### `renderInnerStep` to render any valid component as steps
+
+In the default diamond shapes, the inner step styles are rotated to match the style. So to override, simply use `stepStyle` and `renderInnerStep` together.
+
+```js
+<ProgressStepperProvider
+        width={Dimensions.get('window').width}
+        extended
+        renderInnerStep={() => {
+          return <Image source={require('./checkbox.png')} />;
+        }}
+        stepStyle={{
+          width: 30,
+          height: 30,
+          borderRadius: 15,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#E44949',
+        }}
+        activeColor="#E44949"
+        trackActiveColor="#E44949"
+        trackHeight={2}
+      >
+```
+
+<p>
+<img src="/img/progress_stepper_custom.gif" width="250"/>
+</p>
+
 ## Multi Page
 
 ### Setup
